@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Digital';
+    src: url('assets/fonts/digital/DigitalNumbers400.ttf');
+  }
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 12pt;
+}
+table {
+    border-collapse: collapse;
+    background-color: rgb(192, 192, 192);
+}
+th {
+    height: 2rem;
+    font-size: 2rem;
+    color: red;
+    font-family: 'Digital', Fallback, sans-serif;
+}
+.digitalBg {
+    background-color: rgb(78, 0, 0);
+}
+td {
+    color: red;
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    background-size: contain;
+    font-size: 1rem;
+    border: 1px solid rgb(128, 128, 128);
+}
+.closed {
+    background-image: url('./assets/svg/closed.svg');
+    color: transparent
+}
+.found {
+    background-image: url('./assets/svg/found_mine.svg');
+}
+.mine_exploded {
+    background-image: url('./assets/svg/mine_exploded.svg');
+}
+.mine_show {
+    background-image: url('./assets/svg/mine_show.svg');
+}
+.uncover {
+    background-image: unset;
+}
+.reset {
+    background-image: url('./assets/svg/reset_button.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
