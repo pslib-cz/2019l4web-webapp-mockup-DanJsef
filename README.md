@@ -19,3 +19,11 @@
 
 1. table.all - tvoří rámeček a hlavičku s ukazatelem počtu min a času řešení
 2. table.field - tvoří hrací pločíka
+
+## Dostupné classy pro hrací pole
+
+- closed - neodkryté pole
+- found - nalezená mina (vlaječka)
+- mine_exploded - mina, která explodovala
+- mine_show - odkryté ostatní miny
+- uncover - odkryté pole
